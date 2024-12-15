@@ -1,0 +1,38 @@
+/*Página Inicial antes do usuário logar*/
+/*Header*/
+#x1 {height: 169px;
+     width: 1000px;}
+
+#x2 {height:20px;
+     width:20px}
+.shadowp-3mb-5bg-body-tertiaryrounded {height:250px;
+     width:1900px}
+
+a {font-family: 'Noto Serif Ahom',serif}
+
+.bodyHome {background-image: url(Background1.png);
+      background-repeat: no-repeat;
+      background-size: 2000px 1000px;
+
+      
+}
+.cardtext-bg-primarymb-3 {
+  width: 18rem;
+  background-color: aliceblue;
+}
+
+/*Body*/
+
+
+
+.noto-serif-ahom-regular {
+     font-family: "Noto Serif Ahom", serif;
+     font-weight: 500;
+     font-style: bold;
+     color: rgb(240, 214, 130) ;
+   }
+
+/*Página de se inscrever*/
+/*body*/
+
+.bodyInsc {background-color: rgb(132, 39, 141);}
