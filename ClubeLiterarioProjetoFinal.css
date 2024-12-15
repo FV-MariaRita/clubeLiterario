@@ -1,7 +1,8 @@
 /*Página Inicial antes do usuário logar*/
 /*Header*/
-#x1 {height: 169px;
-     width: 1000px;}
+#x1 {
+     height: 165px;
+     width: auto;}
 
 #x2 {height:20px;
      width:20px}
@@ -10,8 +11,8 @@
 
 a {font-family: 'Noto Serif Ahom',serif}
 
-.bodyHome {background-image: url(Background1.png);
-      background-repeat: no-repeat;
+.bodyHome {background-image: url(Background.png);
+      background-repeat: repeat;
       background-size: 2000px 1000px;
 
       
@@ -21,18 +22,83 @@ a {font-family: 'Noto Serif Ahom',serif}
   background-color: aliceblue;
 }
 
-/*Body*/
+hr{
+     min-width: 20%;
+     max-width: 50%;
+}
 
 
+/*Quem somos*/
 
-.noto-serif-ahom-regular {
-     font-family: "Noto Serif Ahom", serif;
+
+.quicksand-regular {
+     font-family: "Quicksand", sans-serif;
+     font-optical-sizing: auto;
      font-weight: 500;
      font-style: bold;
-     color: rgb(240, 214, 130) ;
+     color:#ddcd8b;
+     text-shadow:  1px 1px #d4a64f;
+     text-align: center;
    }
+.quicksand-regular2 {
+     font-family: "Quicksand", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 300;
+     font-style: normal;
+     color:aliceblue;
+     margin: auto;
+     text-align: center
 
+   }
+/*imagem fluante*/
+#x11 {float: right;
+     padding-right: 30px;
+      height: 25%;
+      width: 25%}
+/*para alinhar o texto à esquerda*/
+#x10 {text-align: justify;}
+
+/*Div a ser mostrada quando apertar no link de entrar*/
+#x7 {min-height: 600px;
+     min-width: 500px;
+     max-height: 500px;
+     max-width: 400px;
+     background-color:#57245b;
+     margin: auto;
+     text-align: center;
+     border-radius: 25px;
+     display: none;
+     }
+   
+
+#Entrar {padding-right: 30px;
+        }
 /*Página de se inscrever*/
 /*body*/
 
-.bodyInsc {background-color: rgb(132, 39, 141);}
+.bodyInsc {background-color: #57245b;}
+
+.Insc {margin:auto;
+text-align:center ;} 
+
+
+/*B0tão para se inscrever com x*/
+#x3{margin-left: 10px;
+     }
+
+/*B0tão para se inscrever com x*/
+
+#x4 {margin-left: 10px;
+}
+
+/*Página home*/
+.linhaHome {width: 40%;}
+
+     /*Parte do catálogo de livros da página home*/
+     #x6 {
+          height: 40%;
+          width: 20%
+     }
+     #divLivros {background-color: #a28fa7;}
+/*Configuração carrossel imagem*/
+.bodyRoxo{ background-color: #875396;}
